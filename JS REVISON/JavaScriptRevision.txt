@@ -1,0 +1,40 @@
+JAVASCRIPT REVISION:
+
+1)Difference between var,let and const:
+var is a function scoped variable and it can be redecared, reassignmed and also it is possible to access var before declaration
+
+let and const are block scoped variables and they cannot be redeclared or access before declaration
+let can reassign but const can'they
+
+2)Arrays(map,filter,forEach)
+   map,filter and forEach all will iterate through the whole array and pass a callback function.
+   callback function contains two paramenters( value an dindex)
+   Difference between forEach and map is 
+    forEach cannot return the value and map can return the values
+    Difference between map and filter is map will return all values but filter returns values where return condition is true.
+
+3)logical and , logical or and ternary operators
+
+logical and expects all conditions to be true
+logical or expects any one condition to be true
+ternary operator checks the condition and if condition is true it executes first block else second block
+
+4) normal functions and arrow functions
+  Arrow functions uses modern syntax with prebuilt return with single statements
+     
+     rest and spread operator
+     both operators uses three dots to represent but rest is considerd  when receiving the values, and 
+     it combines all values into an array and 
+     spread is considerd when giving the values and 
+     it seperates all the array values into individual elements
+
+5)promise,fetch,async await:
+       promise: promise is an object returned by asyncronous operation(it takes time). 
+       every promise will have 3 states i.e., fulfilled, rejected, pending
+
+       we can resolve a promise using then and catch block,if promise is fulfilled, it will go to then block
+       else it will go to catch block.
+          promise
+          .then(callback)
+          .catch(callback)
+//have to practie this one.//5th april-react session-3

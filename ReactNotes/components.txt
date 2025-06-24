@@ -1,0 +1,16 @@
+components are the basic building blocks of User Interafce. it is used for reusability.
+Whole UI is divided into small logical parts called components
+There are 2 types of components in react
+i.functional components
+ii.class components
+
+i.functional components:
+ These components uses a function to render UI. every function will return a JSX element
+ which will render UI. react follows JSX structure. every component need to be exported
+
+ eg: function ComponentName(){
+  return{
+    //JSX
+  }
+ }
+ export default ComponentName;

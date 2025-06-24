@@ -1,0 +1,34 @@
+//Session 4
+Installation and frist react app:
+ To install any library of JS, we use pacakage managers. these package managers are used to install/uninstall/update the packages.npm is the popular package manager. to have npm you need to download and install nodejs.
+   step1: go to this website: https://nodejs.org/en/download
+   step2: dowload as per your OS(windows or mac or linux)
+   step3: install by double tap and select "npm package  manager" and "yes".
+   step4: verify by going to cmd,and type "node -v".it prints version of node if it is installed else error.
+
+    You need to have a code editor,we prefer "vs code " in this course.
+    for nice folder, install "material icon theme"  by pkief in VS code.
+    for shortcuts install "ES7 react/redux..." by rodrigovallades
+    basic settings --> goto file-->activate autosave.
+
+
+    create a folder and open in vscode and open terminal-->new terminal-->cd folder name
+
+    "npm create vite@latest"
+
+    vite is a template code which will create template code for different JS frameworks/libraries
+    After the command give project name, pacakge name and select recat.
+    -->cd foldername
+    -->npm install
+    -->npm run dev
+
+it will run recat app in local host : 5173, to change the default code, goto src-->app.jsx and write html code between return.
+
+To  build the application, run the command "npm run build"
+it will create a dist folder which contains HTML,CSS,JS. 
+Browsers cannot understand react directly so "babel" converts react code to browser understandable JS.
+
+Open netlify.com and singup using "github account"
+after login add new site-->deploy manually-->upload the dist folder
+
+goto site configuration -->change site name
