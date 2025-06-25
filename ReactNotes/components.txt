@@ -1,3 +1,4 @@
+//session -6
 components are the basic building blocks of User Interafce. it is used for reusability.
 Whole UI is divided into small logical parts called components
 There are 2 types of components in react
