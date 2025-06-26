@@ -1,4 +1,4 @@
-import Movie from './movie'
+import Movie from '.movie'
 function Movieline(props) {
   return (
     <div className='Movieline' style={{display: 'flex', gap: '20px'}}>

@@ -1,0 +1,6 @@
+state: state is a object that stores the value that changes, amd on every state value 
+change , the component re rendenr, it uses Virtual DOM for updating only values that changed
+
+state update is a asynchronous function
+
+useState: it is a default hook from react and it 
