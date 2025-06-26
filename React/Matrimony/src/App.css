@@ -1,0 +1,22 @@
+.singlepart{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainpage{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+header{
+  color: orange;
+  
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
