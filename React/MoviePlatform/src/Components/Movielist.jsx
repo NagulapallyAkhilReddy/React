@@ -21,7 +21,7 @@ function Movielist() {
       </select>
       </div>
 
-      <div className='grid grid-cols-4 m-10 gap-5'>
+      <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 sm:px-4 lg:grid-cols-5 m-4 gap-6'>
         { // --- the link before backdrop_path to get the images
           movies.map((v,i)=>(
             <MovieCard key={i} img={v.poster_path} name={v.title} vote={v.vote_average}/>
