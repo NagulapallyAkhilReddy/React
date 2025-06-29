@@ -1,0 +1,32 @@
+Tailwind CSS is a utility based CSS library which works with class names
+
+how to set up tailwind with vite?
+ i. go to this link fro instructions 
+   https://tailwindcss.com/docs/installation/using-vite
+
+ ii. go to terminal , go to specific folder, and do 'npm install tailwindcss @tailwindcss/vite'
+
+ iii.add the folowing to vite.config.js
+
+ import tailwindcss from '@tailwindcss/vite'
+
+ and the plugin tailwindcss()
+
+ so in vite.config.js -- it will be like
+
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react(),tailwindcss()],
+})
+
+
+iv. add the foloeing to index.CSS
+    @import "tailwindcss";
+
+add extension "tailwind css intellisense" in vscode

@@ -1,0 +1,11 @@
+Propdrilling: In recat, there is a situtaion where we have to pass the props form a componnet to the innermost child of that componnet, 
+while doing so we would have to pass the props to the components inbetween too, which doesn't have anything to do with that props.
+-- this is called as Propdrilling
+
+We solve propdrilling by using contextApi
+The contextApi allows us to share the data between the components wihout manually passing them, 
+it provides a way to manage global state, making it easirt to access/update the data across application
+
+  -->Context : A context is a object that holds the shared data
+  -->Provider : A provider is a  component that wraps around your app and provides context to components
+  -->Consumer : A consumer is a componet that uses the context

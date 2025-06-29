@@ -1,0 +1,20 @@
+we can define components in 2 ways 
+functional and class components 
+functional components are also called stateless components as they do not have the state object by default, it can have state using useState hook from react 26 onwards
+class components are called statefull components as they have state object by default
+eg:
+class MyComponent etxtends Component
+{
+
+  render(){
+    return(
+      <div>
+
+      </div>
+    )
+  }
+
+}
+
+counter using class Component
+
