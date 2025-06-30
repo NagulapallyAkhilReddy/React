@@ -1,0 +1,35 @@
+routing is used to navigate between differnet pages.
+React cannot do routing by default, so we need a library for routing in react, the standard
+library for routing in reatc is "React Router DOM".
+
+step1: go to terminal -->cd-specific project -->npm install react-router-dom
+
+react router dom contains so many values and functions to use them, application should be 
+inside browserrouter
+
+step@: goto main.jsx import BrowserRouter, and keep App inside BrowserRouter
+
+step3: goto app.jsx , define routes and each route as follows. Before that create components for different pages
+
+<Routes>
+ <Route path="/path" component={componentName}/>
+</Routes>
+
+step4: Goto Header, define Link to navigate to specific path(anchor tags will reload the page)
+
+ <Link to="path">click here<Link>
+
+
+Dyanmic Routing
+  for dynamic routing, we can mention the path as 
+  <Route path='/path/:id' component={componentName}
+  here id is a variable, to get what is id in url, we canuse the useParams  hook
+  const {id}=useParams();
+
+404 Page:
+  for 404 or not found pages, we can mention path as 
+  <Route path="*" component={componentName} />
+  
+    
+
+
