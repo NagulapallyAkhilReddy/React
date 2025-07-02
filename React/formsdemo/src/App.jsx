@@ -4,7 +4,7 @@ import UnControlled from './Components/UnControlled'
 
 function App() {
   return (
-    <div>
+    <div className='flex gap-2 justify-center'>
       <Controlled />
       <UnControlled />
     </div>
