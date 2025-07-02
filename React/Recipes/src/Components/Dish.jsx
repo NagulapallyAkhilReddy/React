@@ -20,8 +20,8 @@ function Dish({img,preptime,name,ingredients,instructions}) {
         aria-describedby="modal-modal-description"
       >
         <div className='text-black bg-white flex flex-col absolute top-40 p-20 rounded-full relative '>
-          <div className='absolute right-30 top-2 text-gray-500 hover:text-red-500 rounded-full p-2 border-red-500 border-2'>
-            <button onClick={handleClose}>
+          <div >
+            <button className='absolute right-30 top-2 text-gray-500 hover:text-red-500 rounded-full p-2 border-red-500 border-2' onClick={handleClose}>
               X
             </button>
           </div>

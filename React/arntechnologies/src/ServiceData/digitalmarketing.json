@@ -1,0 +1,29 @@
+{
+  "id": 6,
+  "title": "Digital Marketing",
+  "tjson": "digitalmarketing",
+  "slug": "digital-marketing",
+  "shortDescription": "Grow your brand with powerful digital marketing campaigns.",
+  "detailedDescription": "Our digital marketing services help you reach, engage, and convert your audience through targeted strategies. We offer SEO, social media marketing, content creation, paid ad campaigns, and analytics optimization — all customized to your goals and industry. Whether you're building awareness or driving sales, we craft data-backed campaigns that deliver measurable results.",
+  "image": "/images/digital-marketing.jpg",
+  "features": [
+    "SEO Optimization",
+    "Social Media Management",
+    "Content Strategy",
+    "Pay-Per-Click Advertising",
+    "Email Campaigns",
+    "Conversion Tracking"
+  ],
+  "tools": [
+    "Google Analytics",
+    "Ahrefs",
+    "Meta Ads Manager",
+    "SEMrush",
+    "Mailchimp",
+    "Hootsuite"
+  ],
+  "whyChooseUs": "We blend creativity with performance marketing, using real-time analytics and audience insights to make sure every campaign drives ROI. Our transparent reporting ensures you're always in the loop.",
+  "targetAudience": "We help E-commerce brands, startups, personal brands, agencies, and B2B SaaS companies grow their online presence through data-driven campaigns. ",
+  "estimatedTime": "Ongoing / Monthly",
+  "pricing": "Starting from $180/month"
+}

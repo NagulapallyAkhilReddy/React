@@ -1,0 +1,28 @@
+{
+  "id": 8,
+  "title": "IT Consulting",
+  "tjson": "itconsulting",
+  "slug": "it-consulting",
+  "shortDescription": "Expert IT guidance to align your tech with your business goals.",
+  "detailedDescription": "Our IT consulting services help organizations make informed technology decisions, optimize their infrastructure, and drive strategic growth. We analyze your current tech ecosystem, identify inefficiencies, and recommend cost-effective, scalable, and secure solutions that align with your business goals. Whether you're upgrading systems, adopting new platforms, or transforming digitally, we’re your trusted advisor.",
+  "image": "/images/it-consulting.jpg",
+  "features": [
+    "IT Strategy Planning",
+    "Technology Roadmaps",
+    "System Integration",
+    "Digital Transformation",
+    "Vendor & Tool Selection"
+  ],
+  "tools": [
+    "Lucidchart",
+    "MS Project",
+    "Power BI",
+    "Jira",
+    "Trello",
+    "Slack"
+  ],
+  "whyChooseUs": "With a balance of technical expertise and business acumen, we help you future-proof your IT strategy while minimizing risks and maximizing returns. Our approach is consultative, not prescriptive — tailored to your real-world challenges.",
+  "targetAudience": "We partner with businesses to streamline their IT operations and build resilient, innovation-ready ecosystems.",
+  "estimatedTime": "1–3 weeks",
+  "pricing": "Starting from $240"
+}
