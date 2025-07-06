@@ -1,0 +1,25 @@
+Redux: Redux is a state management library.it is used to manage states globally
+
+Even Context API will serve similar purpose, but mostly context API used for smaller states,
+it is not suitable for large scale and complex applications
+
+Redux is suitable for large scale and complex applications.
+ Redux Architecture:
+  To understand how redux works , first understand terminologies
+  i.store:There will be always only one store per application in redux.
+  store is used to staore all the state values, it is accessable to all components
+
+  ii:Reducer: store state values cannot be changed directly. reducer is a function that contains
+  all the rules to replace the state values in the store.
+
+  iii: Actions : Actions are used to trigger Reducer.so that based on action, reducer will change the state in redux
+
+  iv: components: components contain UI. user triggers an event in component which will dispatch actions.
+
+
+  steps to use Redux:
+  i.install redux,npm install redux react-redux
+  ii.create a folder redux and files action.js, reducer.js, store.js
+
+  //Action.js
+  

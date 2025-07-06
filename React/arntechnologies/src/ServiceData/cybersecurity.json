@@ -1,0 +1,29 @@
+{
+  "id": 4,
+  "title": "Cybersecurity Services",
+  "tjson": "cybersecurity",
+  "slug": "cybersecurity-services",
+  "shortDescription": "Protect your business with top-tier cybersecurity strategies.",
+  "detailedDescription": "Our cybersecurity services deliver end-to-end protection through risk assessments, audits, and proactive threat management. We implement advanced security frameworks to protect your business from cyber threats, ensure compliance, and safeguard your digital assets.",
+  "image": "/images/cybersecurity.jpg",
+  "features": [
+    "Security Audits",
+    "Firewall Configuration",
+    "Penetration Testing",
+    "Endpoint Protection",
+    "Data Encryption",
+    "Threat Detection & Response"
+  ],
+  "tools": [
+    "Wireshark",
+    "Nessus",
+    "Metasploit",
+    "Splunk",
+    "Kali Linux",
+    "Snort"
+  ],
+  "whyChooseUs": "We stay ahead of cyber threats by constantly evolving our strategies, using ethical hacking, monitoring, and compliance-based security solutions tailored for your business environment.",
+  "targetAudience": "Our security solutions are tailored for enterprises, e-commerce platforms, and data-sensitive industries like finance and healthcare.",
+  "estimatedTime": "2–3 weeks",
+  "pricing": "Starting from $480"
+}

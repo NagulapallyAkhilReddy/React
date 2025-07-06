@@ -1,0 +1,22 @@
+//session 21 -- 29th april
+React forms can be done in 2 ways. based on forms, reac components are divided as
+1)controlled components
+2)uncontrolled components
+
+in controlled components,forms input values are contolled by state.
+we can save or manipulate the input values using state 
+we can use events such as oninput, onchange,onclick, onselect,onsubmit
+
+
+detailed explanation of both controlles and uncontrolled
+1. Controlled components:
+   -Form input values are controlled nby react state
+   -Any changes to the input values are reflected in the state
+   -Developers have full control over the form inputs and can validate and manipulate the data
+   -Requires more code to setup the initial state and handle changes
+
+2. Uncontrolled components:
+   -form inout values are managed by DOM
+   -React does not have direct control over the input values
+   -Developers c an still access the current values using ref
+   -Requires less code to setup, but it is more difficult to validate and manipulate the data

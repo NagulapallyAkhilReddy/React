@@ -1,0 +1,26 @@
+{
+  "id": 2,
+  "title": "Mobile App Development",
+  "tjson":"mobileapp",
+  "shortDescription": "Custom mobile apps for Android and iOS platforms.",
+  "detailedDescription": "We design and develop native and cross-platform mobile applications that are intuitive, feature-rich, and built to scale. Our apps provide seamless user experiences and integrate with backend systems.",
+  "image": "/images/mobile-app.jpg",
+  "features": [
+    "Cross-Platform Apps",
+    "App Store Deployment",
+    "Push Notifications",
+    "API Integration",
+    "Offline Support"
+  ],
+  "tools": [
+    "Flutter",
+    "React Native",
+    "Java",
+    "Kotlin",
+    "Firebase"
+  ],
+  "whyChooseUs": "We prioritize performance and usability to create apps that your users will love and trust. Whether it's an MVP or a full-scale app, we deliver it with precision.",
+  "targetAudience": "We develop mobile apps for tech startups, entrepreneurs, and businesses launching app-based platforms.",
+  "estimatedTime": "4-6 weeks",
+  "pricing": "Starting from ₹35,000"
+}

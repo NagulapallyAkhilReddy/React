@@ -30,6 +30,40 @@ Dyanmic Routing
   for 404 or not found pages, we can mention path as 
   <Route path="*" component={componentName} />
   
-    
+Child Routing:
+   Recat allows routing inside the page to differnet components called as child routing     
+
+
+   Define routes as children
+
+   <Route 
+           path='/home'
+           component
+
+
+
+
+
+   we need to set Link tag inside the home component for navigating to specific paths
+   To display the child component we use <Outlet /> for the place to display
+
+
+
+Lazy Loading: Normally components load every thing at once, but loading all the components makes
+applictaion performance less, so we need to load a component whenever it is neccessary, that is called lazy loading 
+
+React provides React.lazy to load components based on current routing 
+
+const About=React.lazy(()=>import("./pages/About"))
+
+you need to keep routes within suspence and you can assign a fallback,
+<React.Suspence fallback={<div>Loading....</div>}
+  <Routes></Routes>
+</React.Suspence>
+
+in case if we want to take the query results in URL , we can use useSearchParams
+   for eg:https://amazon.com/sale?item="secret"
+
+       const {query}=useSearchParams()  // secret
 
 

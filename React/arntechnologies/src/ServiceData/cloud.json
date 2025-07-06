@@ -1,0 +1,28 @@
+{
+  "id": 7,
+  "title": "Cloud Services",
+  "tjson": "cloud",
+  "slug": "cloud-services",
+  "shortDescription": "Scalable and secure cloud infrastructure tailored to your needs.",
+  "detailedDescription": "We help businesses migrate to, optimize, and manage their cloud infrastructure on platforms like AWS, Azure, and Google Cloud. Our services are designed to improve scalability, reliability, and cost-efficiency while ensuring top-tier security and compliance. Whether you're deploying a new system or modernizing your architecture, we provide end-to-end cloud solutions.",
+  "image": "/images/cloud.jpg",
+  "features": [
+    "Cloud Migration",
+    "Infrastructure Setup",
+    "Serverless Architecture",
+    "Backup & Disaster Recovery",
+    "Monitoring & Cost Optimization"
+  ],
+  "tools": [
+    "AWS",
+    "Azure",
+    "Google Cloud Platform",
+    "Cloudflare",
+    "Heroku",
+    "Terraform"
+  ],
+  "whyChooseUs": "Our certified cloud engineers deliver scalable, secure, and highly available systems. We follow DevOps and cloud-native best practices to help your business evolve without infrastructure bottlenecks.",
+  "targetAudience": "We support SaaS platforms, enterprises, and tech-driven businesses in building secure and scalable cloud infrastructure.",
+  "estimatedTime": "2–4 weeks",
+  "pricing": "Starting from $335"
+}

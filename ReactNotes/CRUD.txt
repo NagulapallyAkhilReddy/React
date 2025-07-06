@@ -1,0 +1,8 @@
+CRUD refers to create, read,update, delete
+frontend will reda data from database through the backend    using API endpoints,
+frontend also submit the data to API endpoints
+Reading the data -- GET request
+Submitting the data --- POST request
+Updating the data --- PUT request
+Deleting the data --- DELETE request
+
