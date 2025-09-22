@@ -20,7 +20,7 @@ function Home() {
 
   if(!homedata) return <div>Loading...</div>
   return (
-    <div className='flex flex-col  p-3 ' style={{backgroundColor:theme==='light'?'white':'black', color:theme==='light'?'black':'white'}}>
+    <div className='flex flex-col min-h-screen justify-center p-3 ' style={{backgroundColor:theme==='light'?'white':'black', color:theme==='light'?'black':'white'}}>
       <section className='flex flex-col justify-between gap-6 py-4 pb-10'>
        <div>
         <h2 className='text-center font-semibold text-2xl'>{homedata.hero.title}</h2>
@@ -46,7 +46,7 @@ function Home() {
         
           
             <Link to={`/service/${webdevelopment.tjson}`} >
-            <div key={webdevelopment.id} className=' flex flex-col items-center justify-center border-2 rounded-3xl overflow-hidden p-4 h-auto min-h-[500px]  ' >
+            <div key={webdevelopment.id} className=' flex flex-col items-center justify-center border-2 rounded-3xl overflow-hidden p-4 h-auto min-h-[500px] hover:scale-102   ' >
               <img className=' w-full max-w-[300px] md:h-[250px] h-auto object-cover p-2 rounded-2xl' src={webdevelopment.image} alt={webdevelopment.title} />
               <h2 className='font-bold pb-2 text-center '>{webdevelopment.title}</h2>
               <h3  className='text-center text-xl font-semibold pb-4'>{webdevelopment.shortDescription}</h3>
@@ -55,7 +55,7 @@ function Home() {
             </Link>
 
              <Link to={`/service/${mobileapp.tjson}`} >
-            <div key={mobileapp.id} className=' flex flex-col items-center justify-center border-2 rounded-3xl overflow-hidden p-4 h-auto min-h-[500px]' >
+            <div key={mobileapp.id} className=' flex flex-col items-center justify-center border-2 rounded-3xl overflow-hidden p-4 h-auto min-h-[500px] hover:scale-102 ' >
               <img className='w-full max-w-[300px] md:h-[250px] h-auto object-cover p-2 rounded-2xl' src={mobileapp.image} alt={mobileapp.title} />
               <h2 className='font-bold pb-2  text-center'>{mobileapp.title}</h2>
               <h3  className='text-center text-xl font-semibold pb-4'>{mobileapp.shortDescription}</h3>
@@ -65,7 +65,7 @@ function Home() {
             </Link>
 
              <Link to={`/service/${uiux.tjson}`} >
-            <div key={uiux.id} className=' flex flex-col items-center justify-center border-2 rounded-3xl overflow-hidden p-4 h-auto min-h-[500px]' >
+            <div key={uiux.id} className=' flex flex-col items-center justify-center border-2 rounded-3xl overflow-hidden p-4 h-auto min-h-[500px] hover:scale-102 ' >
               <img className='w-full max-w-[300px] md:h-[250px] h-auto object-cover p-2 rounded-2xl' src={uiux.image} alt={uiux.title} />
               <h2 className='font-bold pb-2 text-center '>{uiux.title}</h2>
               <h3  className='text-center text-xl font-semibold pb-4'>{uiux.shortDescription}</h3>
@@ -75,7 +75,7 @@ function Home() {
             </Link>
 
              <Link to={`/service/${cybersecurity.tjson}`} >
-            <div key={cybersecurity.id} className=' flex flex-col items-center justify-center border-2 rounded-3xl overflow-hidden p-4 h-auto min-h-[500px]' >
+            <div key={cybersecurity.id} className=' flex flex-col items-center justify-center border-2 rounded-3xl overflow-hidden p-4 h-auto min-h-[500px] hover:scale-102 ' >
               <img className='w-full max-w-[300px] md:w-[300px] md:h-[250px] h-auto object-cover p-2 rounded-2xl ' src={cybersecurity.image} alt={cybersecurity.title} />
               <h2 className='font-bold pb-2 text-center '>{cybersecurity.title}</h2>
               <h3  className='text-center text-xl font-semibold pb-4'>{cybersecurity.shortDescription}</h3>

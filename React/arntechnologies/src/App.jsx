@@ -9,7 +9,7 @@ export const themechange=createContext();
 
 
 function App() {
-  const [theme,setTheme]=useState('light')
+  const [theme,setTheme]=useState('dark')
 
     const Home=React.lazy(()=>import('./Pages/Home'))
     const About=React.lazy(()=>import('./Pages/About'))

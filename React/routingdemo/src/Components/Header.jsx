@@ -13,10 +13,11 @@ function Header() {
       <button className='lg:hidden text-2xl' onClick={()=>setIsmenuOpen(!ismenuOpen)}>☰</button>
       </div>
       <nav className={`flex flex-col lg:flex-row text-xl gap-2 lg:gap-4 mt-4 lg:mt-0 ${ismenuOpen?'flex':'hidden'} lg:flex`} >
-      <NavLink  to="/" className={({isActive})=>isActive?'text-blue-400':'hover:text-blue-400 transition-all ease-in-out'}>Home</NavLink>
-      <NavLink  to="/about" className={({isActive})=>isActive?'text-blue-400':'hover:text-blue-400 transition-all ease-in-out'}>About</NavLink>
-      <NavLink  to="/services" className={({isActive})=>isActive?'text-blue-400':'hover:text-blue-400 transition-all ease-in-out'}>Services</NavLink>
-      <NavLink  to="/contact" className={({isActive})=>isActive?'text-blue-400':'hover:text-blue-400 transition-all ease-in-out'}>Contact</NavLink>
+      <NavLink  to="/" className={({isActive})=>isActive?'text-blue-400':'hover:text-blue-400 '}>Home</NavLink>
+      <NavLink  to="/about" className={({isActive})=>isActive?'text-blue-400':'hover:text-blue-400 '}>About</NavLink>
+      <NavLink  to="/services" className={({isActive})=>isActive?'text-blue-400':'hover:text-blue-400 '}>Services</NavLink>
+      <NavLink  to="/contact" className={({isActive})=>isActive?'text-blue-400':'hover:text-blue-400 '}>Contact</NavLink>
+      <NavLink  to="/careers" className={({isActive})=>isActive?'text-blue-400':'hover:text-blue-400'}>Careers</NavLink>
       <button onClick={()=>setTheme(theme==='light'?'dark':'light')}>{theme==='light'?'☀️':'🌃'}</button>
       </nav>
       

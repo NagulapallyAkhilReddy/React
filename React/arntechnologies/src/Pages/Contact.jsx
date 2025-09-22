@@ -44,41 +44,42 @@ function Contact() {
    
   // }
   return (
-    <div className='flex flex-col h-auto sm:h-[490px] ' style={{backgroundColor:theme==='light'?'white':'black', color:theme==='light'?'black':'white'}}>
-      <h2 className='text-2xl font-semibold mt-5  text-center '>Contact Us</h2>
-      <section className='ml-3 flex flex-col md:flex-row gap-6 justify-between'>
-        <section>
-          <img className='rounded-full max-w-full h-auto lg:h-[400px]  ' src="/images/contact.jpg" alt="contact" />
+    <div className='flex flex-col h-auto min-h-screen justify-center items-center ' style={{backgroundColor:theme==='light'?'white':'black', color:theme==='light'?'black':'white'}}>
+      <h2 className='text-2xl font-semibold mt-3 mb-5  text-center '>Contact Us</h2>
+      <section className='ml-3 flex flex-col md:flex-row gap-30 md:gap-60 items-center md:h-[300px]' >
+        <section className='flex flex-col justify-center items-center'>
+          <img className='max-w-[400px] w-[200px] md:w-[300px] lg:w-[400px] rounded-2xl h-auto object-cover  ' src="/images/contact.jpg" alt="contact" />
         </section>
-        <section className='mr-5 flex-col items-center h-[400px]'>
-          <h2 className='text-center font-semibold pb-10'>Fill out the form, and we will get back to you.</h2>
-         <section className='flex flex-col gap-3'>
+        <section className='mx-3 flex-col items-center mb-9 '>
+          <h2 className='text-center font-semibold pb-3'>Fill out the form, and we will get back to you.</h2>
+         
           <Formik
           initialValues={initialValues}
           validationSchema={SignupSchema}
-          onSubmit={({resetForm})=>
+          onSubmit={(values,{resetForm})=>{
+            try{
+              emailjs.sendForm(
+                'service_h92s64l',
+                  'template_lok60xp',
+                  form.current,
+                  'ch4mI04AhYieICn62'
+              )
+              .then((res)=>{
+                toast.success("Message sent Successfully, 'Thank you for your time!'")
+                form.current.reset();
+                resetForm();
+                
+              })
+             
+            }
+             catch(err){
+              toast.error("Message failed to send, please try again"+err)
+            }
+            
+          }}
         
       
-    emailjs.sendForm(
-      'service_h92s64l',
-      'template_lok60xp',
-      form.current,
-      'ch4mI04AhYieICn62'
-    )
-    .then(()=>{
-      toast.success("Message sent successfully!, Thank you for your time.");
-      form.current.reset();
-      form.current.reset();
-          resetForm();
-
-    })
-    .catch(()=>{
-      toast.error("message failed to send, please try again.");
-    })
-   
-  
-           
-          }
+             
           >{({handleChange,handleBlur,values,errors,handleSubmit,touched})=>
             <form ref={form} onSubmit={handleSubmit} className='flex flex-col  justify-center'  >
             <ToastContainer />
@@ -86,7 +87,7 @@ function Contact() {
              {errors.name && touched.name && (<p className='text-red-500'>{errors.name}</p> )}
              <input type="email" name='email' placeholder='your email' required className='rounded-2xl pl-3 mb-3 border-2 border-black-500 focus:border-blue-300' onChange={handleChange} onBlur={handleBlur} value={values.email} />
              {errors.email && touched.email && (<p className='text-red-500'>{errors.email}</p> )}
-              <textarea name="message" rows="auto" placeholder='Your Message' required className='rounded-2xl pl-3 mb-3 h-auto w-full  border-2 border-black-500  focus:border-blue-300' onChange={handleChange} onBlur={handleBlur} value={values.message} ></textarea>
+              <textarea name="message" rows="5" placeholder='Your Message' required className='rounded-2xl pl-3 mb-3 h-auto w-full  border-2 border-black-500  focus:border-blue-300' onChange={handleChange} onBlur={handleBlur} value={values.message} ></textarea>
               {errors.message && touched.message && (<p className='text-red-500'>{errors.message}</p> )}
               <div className='text-center'>
               <button type='submit'  className='border-amber-200 border-r-2 rounded-2xl text-center border-2 px-4  mb-9 hover:border-red-500  '> Send </button>
@@ -95,9 +96,16 @@ function Contact() {
          
           }
           </Formik>
-          </section>
+          
         </section>
-      </section>
+        </section>
+        <section className='border-2 rounded-2xl mx-3 my-12 p-1'>
+          <h2 className='font-extrabold '>For inquiries or assistance, please contact us at: </h2>
+          <p><span className='font-bold'>Phone: </span>+1 (913) 548-8556</p>
+          <p><span className='font-bold'>Email: </span> reddy@arntechnologies.com</p>
+          <p><span className='font-bold'>Address: </span> Los Angeles, California</p>
+        </section>
+      
            
      
     </div>

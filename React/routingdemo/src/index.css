@@ -1,1 +1,5 @@
 @import "tailwindcss";
+@import "react-toastify/dist/ReactToastify.css";
+*{
+  transition: all 0.3s ease-in-out;
+}

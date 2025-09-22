@@ -18,10 +18,10 @@
     },[])
   
     return (
-      <div style={{backgroundColor:theme==='light'?'white':'black', color:theme==='light'?'black':'white'}} className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-6  '>
+      <div style={{backgroundColor:theme==='light'?'white':'black', color:theme==='light'?'black':'white'}} className=' grid grid-cols-1 md:grid-cols-2 content-center-safe min-h-screen lg:grid-cols-3 gap-10 p-4  '>
         {
           serviceslist.map((v,i)=>(
-            <Link to={`/service/${v.tjson}`} ><div key={v.id} className=' flex flex-col justify-center items-center border-2 rounded-3xl overflow-hidden h-[400px]' >
+            <Link to={`/service/${v.tjson}`} ><div key={v.id} className=' flex flex-col justify-center items-center border-2 rounded-3xl overflow-hidden h-[400px] hover:scale-105' >
               <img className='h-[250px] w-[300px] rounded-2xl' src={v.image} alt={v.title} />
               <h2 className='font-bold pb-2 '>{v.title}</h2>
               <p  className='text-center text-xl font-light px-2'>{v.shortDescription}</p>

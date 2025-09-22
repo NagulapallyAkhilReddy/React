@@ -45,7 +45,7 @@ function Service() {
   if(!servicedata) return <div>Loading....</div>
 
   return (
-   <div className='flex flex-col lg:flex-row justify-between gap-2 p-2 min-h-screen'  style={{backgroundColor:theme==='light'?'white':'black', color:theme==='light'?'black':'white'}}>
+   <div className='flex flex-col lg:flex-row justify-center gap-2 p-2 min-h-screen'  style={{backgroundColor:theme==='light'?'white':'black', color:theme==='light'?'black':'white'}}>
     <div className='flex justify-center items-center '>
       <img className='w-full max-w-[300px] lg:w-[300px] h-auto object-cover rounded-lg shadow-md' src={servicedata.image} alt={servicedata.title} />
       </div>

@@ -14,11 +14,13 @@ function App() {
 
   const [theme,setTheme]=useState('dark')
 
-      const home=React.lazy(()=>import('./Pages/Home'))
-      const about=React.lazy(()=>import('./Pages/About'))
-      const services=React.lazy(()=>import('./Pages/Services'))
-      const contact=React.lazy(()=>import('./Pages/Contact'))
-      const service=React.lazy(()=>import('./Pages/Service'))
+      const Home=React.lazy(()=>import('./Pages/Home'))
+      const About=React.lazy(()=>import('./Pages/About'))
+      const Services=React.lazy(()=>import('./Pages/Services'))
+      const Contact=React.lazy(()=>import('./Pages/Contact'))
+      const Service=React.lazy(()=>import('./Pages/Service'))
+      const Careers=React.lazy(()=>import('./Pages/Careers'))
+      const JobDetails=React.lazy(()=>import('./Pages/JobDetails'))
   return (
     <themechangeR.Provider value={{theme,setTheme}} >
     <div className='flex flex-col  min-h-screen '>
@@ -30,12 +32,15 @@ function App() {
 						autoplay
 					/>}>
       <Routes>
-        <Route path="/" Component={home} />
-        <Route path="/home" Component={home} />
-        <Route path="/about" Component={about} />
-        <Route path="/contact" Component={contact} />
-        <Route path="/services" Component={services} />
-        <Route path='/service/:tjson'  Component={service}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/services" element={<Services/>} />
+        <Route path='/service/:tjson'  element={<Service />}/>
+        <Route path='/careers' element={<Careers/>} >
+           <Route path={`/careers/jobdetails/:id`} element={<JobDetails/>} />
+        </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
       </React.Suspense>

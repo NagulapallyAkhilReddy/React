@@ -1,0 +1,194 @@
+[
+  
+    {
+      "id": "0",
+      "title": "Frontend Developer",
+      "location": "Remote (preferred Hyderabad)",
+      "type": "Full-Time",
+      "description": "We’re looking for a Frontend Developer who is passionate about building elegant, scalable, and accessible web interfaces. You’ll work closely with designers and backend engineers to create smooth, high-performance user experiences.",
+      "responsibilities": [
+        "Develop responsive and dynamic web interfaces using React",
+        "Collaborate with UX/UI designers to refine user experience",
+        "Optimize applications for speed and scalability",
+        "Write clean, maintainable, and efficient code",
+        "Participate in code reviews and contribute to frontend architecture decisions"
+      ],
+      "requirements": [
+        "2+ years experience with React or other modern frontend frameworks",
+        "Strong proficiency in HTML5, CSS3, and JavaScript (ES6+)",
+        "Experience with version control (Git)",
+        "Understanding of RESTful APIs and integration",
+        "Good communication and team collaboration skills"
+      ]
+    },
+    {
+      "id": "1",
+      "title": "UI/UX Designer",
+      "location": "Remote",
+      "type": "Contract / Freelance",
+      "description": "As a UI/UX Designer, you’ll be responsible for designing intuitive and engaging digital interfaces across our web and mobile platforms. You should have an eye for clean and artful design and be able to translate high-level requirements into beautiful, functional user experiences.",
+      "responsibilities": [
+        "Design UI mockups, wireframes, and prototypes",
+        "Conduct user research and usability testing",
+        "Work closely with developers to ensure accurate implementation",
+        "Develop and maintain design systems and style guides",
+        "Iterate designs based on feedback and analytics"
+      ],
+      "requirements": [
+        "Strong portfolio demonstrating UI/UX skills",
+        "Proficiency in design tools like Figma, Sketch, or Adobe XD",
+        "Good understanding of responsive and mobile-first design",
+        "Knowledge of accessibility best practices",
+        "Ability to work independently and manage time effectively"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Backend Engineer",
+      "location": "Remote (preferred Bangalore)",
+      "type": "Full-Time",
+      "description": "We're hiring a Backend Engineer to design and implement scalable backend services and APIs. You will collaborate with frontend developers and DevOps to ensure seamless integration and performance.",
+      "responsibilities": [
+        "Build and maintain scalable RESTful APIs",
+        "Design and optimize databases",
+        "Ensure security and data protection best practices",
+        "Collaborate with frontend and DevOps teams",
+        "Write automated tests and participate in code reviews"
+      ],
+      "requirements": [
+        "Proficiency in Node.js, Python, or Java",
+        "Experience with SQL and NoSQL databases",
+        "Understanding of cloud services (AWS/GCP/Azure)",
+        "Strong debugging and problem-solving skills",
+        "Experience with Git and CI/CD pipelines"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Project Manager",
+      "location": "Hyderabad",
+      "type": "Full-Time",
+      "description": "We’re looking for a Project Manager who can lead cross-functional teams and ensure timely delivery of digital solutions. You should be detail-oriented and an excellent communicator.",
+      "responsibilities": [
+        "Plan and manage project timelines and deliverables",
+        "Coordinate between clients, developers, and designers",
+        "Track progress and resolve issues proactively",
+        "Ensure quality and budget goals are met",
+        "Report project status to stakeholders"
+      ],
+      "requirements": [
+        "3+ years of experience in project management",
+        "Familiarity with Agile/Scrum methodologies",
+        "Strong organizational and multitasking skills",
+        "Excellent written and verbal communication",
+        "Proficiency in project management tools (e.g., Jira, Trello)"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Quality Assurance Engineer",
+      "location": "Chennai",
+      "type": "Full-Time",
+      "description": "As a QA Engineer, you will ensure the quality and stability of our applications through automated and manual testing. You'll work closely with developers to identify and resolve bugs early in the development cycle.",
+      "responsibilities": [
+        "Write and execute test plans and test cases",
+        "Perform regression and performance testing",
+        "Report bugs and track issues to resolution",
+        "Collaborate with developers to ensure test coverage",
+        "Maintain and enhance automation test suites"
+      ],
+      "requirements": [
+        "2+ years experience in software testing",
+        "Familiarity with Selenium or similar frameworks",
+        "Understanding of QA methodologies and SDLC",
+        "Basic knowledge of SQL and API testing",
+        "Strong attention to detail"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "DevOps Engineer",
+      "location": "Remote (preferred Bangalore)",
+      "type": "Full-Time",
+      "description": "We are seeking a DevOps Engineer to maintain and streamline our infrastructure and deployment processes. You'll work with the development team to ensure continuous integration and continuous delivery pipelines are stable and scalable.",
+      "responsibilities": [
+        "Design and implement CI/CD pipelines",
+        "Manage cloud infrastructure and deployment automation",
+        "Monitor system performance and troubleshoot issues",
+        "Implement infrastructure as code (IaC)",
+        "Collaborate with developers to optimize build and release cycles"
+      ],
+      "requirements": [
+        "2+ years experience in DevOps roles",
+        "Strong knowledge of Docker, Kubernetes, and Jenkins",
+        "Experience with AWS or other cloud platforms",
+        "Familiarity with monitoring tools like Prometheus, Grafana",
+        "Scripting knowledge (Bash, Python, etc.)"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Business Analyst",
+      "location": "Remote (preferred Pune)",
+      "type": "Full-Time",
+      "description": "We’re hiring a Business Analyst to work closely with clients and technical teams to translate business needs into clear requirements. You'll play a critical role in project planning, requirement gathering, and stakeholder communication.",
+      "responsibilities": [
+        "Gather and document business requirements",
+        "Collaborate with cross-functional teams",
+        "Define project scope and business objectives",
+        "Analyze trends and provide insights",
+        "Facilitate communication between stakeholders and developers"
+      ],
+      "requirements": [
+        "Experience in business analysis or a related field",
+        "Strong analytical and problem-solving skills",
+        "Excellent communication and presentation abilities",
+        "Familiarity with Agile methodologies",
+        "Proficiency in tools like Jira, Confluence, or Excel"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Content Writer",
+      "location": "Remote",
+      "type": "Part-Time / Freelance",
+      "description": "We're looking for a creative Content Writer to develop engaging and informative content across our blogs, websites, and marketing campaigns. You should be able to write with clarity and adapt to our brand voice.",
+      "responsibilities": [
+        "Write clear, compelling, and SEO-friendly content",
+        "Research industry topics and trends",
+        "Collaborate with marketing and design teams",
+        "Edit and proofread content before publication",
+        "Ensure consistency in tone and style"
+      ],
+      "requirements": [
+        "Proven experience in content writing or copywriting",
+        "Excellent grammar and writing skills",
+        "Understanding of SEO principles",
+        "Ability to work independently and meet deadlines",
+        "Familiarity with content management systems"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Digital Marketing Specialist",
+      "location": "Remote (preferred Mumbai)",
+      "type": "Full-Time",
+      "description": "As a Digital Marketing Specialist, you'll plan, execute, and optimize online marketing efforts across various digital channels. Your goal is to increase brand awareness and generate qualified leads.",
+      "responsibilities": [
+        "Develop and execute digital marketing campaigns",
+        "Manage SEO/SEM, email, and social media strategies",
+        "Analyze and report performance metrics",
+        "Identify new marketing trends and opportunities",
+        "Collaborate with design and content teams"
+      ],
+      "requirements": [
+        "1-3 years of digital marketing experience",
+        "Proficiency in tools like Google Analytics, SEMrush, Meta Ads",
+        "Strong understanding of SEO/SEM, PPC, and email marketing",
+        "Excellent communication and project management skills",
+        "Creative mindset with attention to detail"
+      ]
+    }
+   
+  
+]

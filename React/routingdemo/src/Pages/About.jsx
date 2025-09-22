@@ -16,7 +16,7 @@ function About() {
   if(!aboutdata) return <div>Loading...</div>
 
   return (
-    <div className='flex flex-col    p-3' style={{backgroundColor:theme==='light'?'white':'black', color:theme==='light'?'black':'white'}}>
+    <div className='flex flex-col   min-h-screen justify-center    p-3' style={{backgroundColor:theme==='light'?'white':'black', color:theme==='light'?'black':'white'}}>
      <section className='pb-6'>
       <h1 className='text-center font-bold  text-3xl'>About Us</h1>
       <h1 className='text-center font-semibold  text-2xl'>We blend design, technology, and strategy to help businesses bring their digital vision to life</h1>
